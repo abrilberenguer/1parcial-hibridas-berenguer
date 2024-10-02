@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130a"
+  },
+  "id": 1,
+  "lugar": "Playa de Cancún",
+  "imagen": "./cancun.webp",
+  "descripcion": "Famosa por sus aguas cristalinas y arenas blancas, Cancún es el destino turístico más popular de México.",
+  "atracciones_principales": [
+    "Isla Mujeres",
+    "Cenotes",
+    "Ruinas Mayas",
+    "Vida Nocturna"
+  ],
+  "link": "https://www.caribemexicano.travel/cancun/index.html",
+  "tematica": "Playa",
+  "puntuacion": 8
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130b"
+  },
+  "id": 2,
+  "lugar": "Playa de Copacabana",
+  "imagen": "./capacabana.jpeg",
+  "descripcion": "Una de las playas más famosas del mundo, caracteristica por su forma de media luna. Ubicada en Brasil.",
+  "atracciones_principales": [
+    "Cristo Redentor",
+    "Pan de Azúcar",
+    "Carnaval",
+    "Surf"
+  ],
+  "link": "https://imaginariodejaneiro.com/que-visitar-en-rio-de-janeiro/barrios-de-rio-de-janeiro/copacabana/",
+  "tematica": "Playa",
+  "puntuacion": 7
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130c"
+  },
+  "id": 3,
+  "lugar": "Isla de Bali",
+  "imagen": "./bali.webp",
+  "descripcion": "Bali es famosa por sus montañas volcánicas, los icónicos arrozales, las playas y los arrecifes de coral.",
+  "atracciones_principales": [
+    "Templo Uluwatu",
+    "Ubud",
+    "Playas de Seminyak",
+    "Arrozales"
+  ],
+  "link": "https://millasxelmundo.com/la-isla-de-bali-un-paraiso-en-la-tierra/",
+  "tematica": "Playa",
+  "puntuacion": "10"
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130d"
+  },
+  "id": 4,
+  "lugar": "Playa del Carmen",
+  "imagen": "./playaDelCarmen.webp",
+  "descripcion": "Un destino en la Riviera Maya conocido por su ambiente relajado y sus playas de ensueño.",
+  "atracciones_principales": [
+    "Quinta Avenida",
+    "Parque Xcaret",
+    "Cenotes",
+    "Ruinas Mayas"
+  ],
+  "link": "https://turismo-playadelcarmen.gobiernodesolidaridad.gob.mx/",
+  "tematica": "Playa",
+  "puntuacion": 9
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130e"
+  },
+  "id": 5,
+  "lugar": "Tokio",
+  "imagen": "./tokio.webp",
+  "descripcion": "Una mezcla de modernidad y tradición, Tokio es una ciudad vibrante llena de cultura y tecnología.",
+  "atracciones_principales": [
+    "Templo Sensoji",
+    "Shibuya",
+    "Tokyo Skytree",
+    "Parque Ueno"
+  ],
+  "link": "https://www.gotokyo.org/es/index.html",
+  "tematica": "Ciudad",
+  "puntuacion": 7
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f130f"
+  },
+  "id": 6,
+  "lugar": "París",
+  "imagen": "./paris.jpg",
+  "descripcion": "La capital de Francia, conocida por sus museos, gastronomía y arquitectura icónica.",
+  "atracciones_principales": [
+    "Torre Eiffel",
+    "Museo del Louvre",
+    "Catedral de Notre Dame",
+    "Montmartre"
+  ],
+  "link": "https://parisjetaime.com/spa/",
+  "tematica": "Ciudad",
+  "puntuacion": 10
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1310"
+  },
+  "id": 7,
+  "lugar": "Nueva York",
+  "imagen": "./newyork.jpg",
+  "descripcion": "La ciudad que nunca duerme, famosa por sus rascacielos, Broadway y la Estatua de la Libertad.",
+  "atracciones_principales": [
+    "Central Park",
+    "Times Square",
+    "Estatua de la Libertad",
+    "Museo Metropolitano"
+  ],
+  "link": "https://www.nuevayork.net/",
+  "tematica": "Ciudad",
+  "puntuacion": 8
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1311"
+  },
+  "id": 8,
+  "lugar": "Roma",
+  "imagen": "./roma.jpg",
+  "descripcion": "Una de las ciudades más históricas de Europa, conocida por su arquitectura antigua y deliciosa cocina.",
+  "atracciones_principales": [
+    "Coliseo",
+    "Fontana di Trevi",
+    "Vaticano",
+    "Piazza Navona"
+  ],
+  "link": "https://www.enroma.com/turismo/",
+  "tematica": "Ciudad",
+  "puntuacion": 10
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1312"
+  },
+  "id": 9,
+  "lugar": "Patagonia Argentina",
+  "imagen": "./patagonia.jpg",
+  "descripcion": "Un destino ideal para los amantes de la aventura, con paisajes impresionantes de glaciares y montañas.",
+  "atracciones_principales": [
+    "Glaciar Perito Moreno",
+    "Trekking en El Chaltén",
+    "Lago Argentino",
+    "Parque Nacional Los Glaciares"
+  ],
+  "link": "https://patagonia.gob.ar/",
+  "tematica": "Aventura",
+  "puntuacion": 10
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1313"
+  },
+  "id": 10,
+  "lugar": "Machu Picchu",
+  "imagen": "./machupichu.jpg",
+  "descripcion": "Una de las maravillas del mundo, Machu Picchu ofrece una experiencia única de aventura e historia.",
+  "atracciones_principales": [
+    "Camino Inca",
+    "Ruinas de Machu Picchu",
+    "Montaña Huayna Picchu",
+    "Valle Sagrado"
+  ],
+  "link": "https://www.cuscoperu.com/es/viajes/machupicchu/",
+  "tematica": "Aventura",
+  "puntuacion": 9
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1314"
+  },
+  "id": 11,
+  "lugar": "Parque Nacional Torres del Paine",
+  "imagen": "./torresDelPaine.jpg",
+  "descripcion": "Famoso por sus rutas de trekking y vistas de montañas, glaciares y lagos.",
+  "atracciones_principales": [
+    "Circuito W",
+    "Lago Grey",
+    "Glaciar Grey",
+    "Cuernos del Paine"
+  ],
+  "link": "https://www.munitorresdelpaine.cl/informacion-turistica/",
+  "tematica": "Aventura",
+  "puntuacion": 8
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1315"
+  },
+  "id": 12,
+  "lugar": "Islas Galápagos",
+  "imagen": "./galapagos.jpg",
+  "descripcion": "Un archipiélago único, famoso por su biodiversidad y oportunidades de aventura ecológica.",
+  "atracciones_principales": [
+    "Snorkel en Kicker Rock",
+    "Tortugas Gigantes",
+    "Volcán Sierra Negra",
+    "Bahía Darwin"
+  ],
+  "link": "https://www.chokotrip.info/islas-galapagos/",
+  "tematica": "Aventura",
+  "puntuacion": 9
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1316"
+  },
+  "id": 13,
+  "lugar": "Gran Muralla China",
+  "imagen": "./cultura.jpg",
+  "descripcion": "Una de las mayores maravillas arquitectónicas del mundo, un símbolo de la cultura china.",
+  "atracciones_principales": [
+    "Sección Mutianyu",
+    "Sección Badaling",
+    "Tumbas Ming",
+    "Montañas Jundu"
+  ],
+  "link": "https://www.disfrutapekin.com/gran-muralla-china",
+  "tematica": "Cultura",
+  "puntuacion": 7
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1317"
+  },
+  "id": 14,
+  "lugar": "Atenas",
+  "imagen": "./atenas.jpg",
+  "descripcion": "Capital de Grecia, cuna de la civilización occidental, famosa por sus ruinas antiguas y su rica historia.",
+  "atracciones_principales": [
+    "Acrópolis",
+    "Templo de Zeus",
+    "Ágora Antigua",
+    "Museo de la Acrópolis"
+  ],
+  "link": "https://www.atenas.net/",
+  "tematica": "Cultura",
+  "puntuacion": 8
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1318"
+  },
+  "id": 15,
+  "lugar": "Kioto",
+  "imagen": "./kioto.webp",
+  "descripcion": "Conocida por sus templos antiguos y jardines zen, Kioto es el corazón de la cultura japonesa tradicional.",
+  "atracciones_principales": [
+    "Templo Fushimi Inari",
+    "Kinkaku-ji",
+    "Bosque de Bambú de Arashiyama",
+    "Gion"
+  ],
+  "link": "https://kyoto.travel/es/info/tourist.html",
+  "tematica": "Cultura",
+  "puntuacion": 10
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f1319"
+  },
+  "id": 16,
+  "lugar": "Estambul",
+  "imagen": "./estambul.webp",
+  "descripcion": "Una ciudad que une Europa y Asia, famosa por su mezcla de culturas y monumentos históricos.",
+  "atracciones_principales": [
+    "Santa Sofía",
+    "Mezquita Azul",
+    "Palacio de Topkapi",
+    "Gran Bazar"
+  ],
+  "link": "https://www.estambul.es/",
+  "tematica": "Cultura",
+  "puntuacion": 9
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f131a"
+  },
+  "id": 17,
+  "lugar": "Parque Nacional Yellowstone",
+  "imagen": "./yellowstone.jpg",
+  "descripcion": "El primer parque nacional del mundo, conocido por sus géiseres y paisajes geotérmicos únicos.",
+  "atracciones_principales": [
+    "Géiser Old Faithful",
+    "Gran Cañón de Yellowstone",
+    "Mammoth Hot Springs",
+    "Lago Yellowstone"
+  ],
+  "link": "https://www.nps.gov/yell/espanol/index.htm",
+  "tematica": "Naturaleza",
+  "puntuacion": 10
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f131b"
+  },
+  "id": 18,
+  "lugar": "Selva Amazónica",
+  "imagen": "./amazonica.jpg",
+  "descripcion": "La mayor selva tropical del mundo, hogar de una increíble biodiversidad y fascinantes ecosistemas únicos.",
+  "atracciones_principales": [
+    "Río Amazonas",
+    "Reserva de Biosfera Yasuní",
+    "Balsa de Agua",
+    "Observación de Fauna"
+  ],
+  "link": "https://www.tangol.com/blog/esp/viaje-al-amazonas-guia-completa-con-recomendaciones-y-consejos_nota_7072",
+  "tematica": "Naturaleza",
+  "puntuacion": 7
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f131c"
+  },
+  "id": 19,
+  "lugar": "Gran Cañón",
+  "imagen": "./grancañon.jpeg",
+  "descripcion": "Un impresionante cañón esculpido por el río Colorado, conocido por sus vistas panorámicas.",
+  "atracciones_principales": [
+    "Rim Trail",
+    "South Rim",
+    "North Rim",
+    "Descenso al Cañón"
+  ],
+  "link": "https://www.disfrutalasvegas.com/gran-canon",
+  "tematica": "Naturaleza",
+  "puntuacion": 9
+},
+{
+  "_id": {
+    "$oid": "66f6044a68f572db1a3f131d"
+  },
+  "id": "20",
+  "lugar": "Parque Nacional de Yosemite",
+  "imagen": "./naturaleza.jpg",
+  "descripcion": "Famoso por sus formaciones rocosas y cascadas, Yosemite es un paraíso para los amantes de la naturaleza.",
+  "atracciones_principales": [
+    "El Capitán",
+    "Glacier Point",
+    "Cascada de Yosemite",
+    "Valle de Yosemite"
+  ],
+  "link": "https://www.nps.gov/yose/espanol/index.htm",
+  "tematica": "Naturaleza",
+  "puntuacion": 6
+}]

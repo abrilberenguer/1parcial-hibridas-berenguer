@@ -1,0 +1,254 @@
+/* Estilos generales */
+* {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+main {
+    margin: 6rem 1rem 0 1rem;
+}
+h1 {
+    margin-top: 1.5rem;
+    color: #082f36;
+}
+.img-logo {
+    width: 5%;
+    margin-right: 10px;
+}
+
+/* Estilos nav */
+nav {
+    background-color: #c11d4c;
+    padding: 20px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1;
+}
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    position: relative;
+    margin-right: 15px;
+}
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.6px;
+    border-radius: 1rem;
+    background-color: #f2f2f2;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease-in-out;
+}
+nav a:hover::after {
+    width: 100%;
+}
+nav p {
+    font-weight: bold;
+    padding-top: 5px;
+}
+.nav-title {
+    display: flex;
+}
+
+/* Estilos inicio */
+.subtitulo{
+    margin-bottom: 1rem;
+}
+.contenedor-inicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 590px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.card-image {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card-title {
+    margin-top: 0.9rem;
+    font-size: 1.5rem;
+}
+.card-description {
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: #555;
+}
+.card-link {
+    display: inline-block;
+    margin-top: 0.4rem;
+    margin-bottom: 0.9rem;
+    text-decoration: none;
+    color: #00768e;
+}
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos card destinos */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 2rem;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 15px;
+}
+.card-body h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.card-body p {
+    margin: 0 0 10px;
+}
+.card-actions {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+li{
+    text-align: start;
+    margin-left: 1rem;
+}
+.star {
+    color: #c79006;
+}
+.btn-detalles {
+    width: 100%;
+    background-color: #c11d4c;
+    padding: 2px 2px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #c11d4c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f01453;
+}
+
+
+/* Detalles */
+.destino-detalle {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.destino-imagen {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.destino-info {
+    margin: 20px 0;
+    text-align: left;
+}
+.destino-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.destino-info strong {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #082f36;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 5rem;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 8px 0;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}

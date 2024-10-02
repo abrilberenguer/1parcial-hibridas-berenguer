@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "66faa636ce8281dd60375538"
+  },
+  "nombre": "Jorge Lopez",
+  "foto": "./jorge.jpg",
+  "descripcion": "Soy Jorge, un hombre de 50 años, apasionado por viajar.",
+  "destinos": [
+    "66f6044a68f572db1a3f130a",
+    "66f6044a68f572db1a3f1312",
+    "66f6044a68f572db1a3f131d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66faa636ce8281dd60375539"
+  },
+  "id": 2,
+  "nombre": "Carla Perez",
+  "foto": "./carla.jpg",
+  "descripcion": "Hola! Soy Carla y amo viajar.",
+  "destinos": [
+    "66f6044a68f572db1a3f130b",
+    "66f6044a68f572db1a3f131c"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66faa636ce8281dd6037553a"
+  },
+  "id": 3,
+  "nombre": "Tomás Castaño",
+  "foto": "tomas.jpg",
+  "descripcion": "Acá Tomás, tengo 33 años y hace 2 años estoy conociendo lugares del mundo."
+},
+{
+  "_id": {
+    "$oid": "66faa636ce8281dd6037553b"
+  },
+  "id": 4,
+  "nombre": "Delfina Delgado",
+  "foto": "delfina.jpg",
+  "descripcion": "Me dicen Delfi, y amo la naturaleza.",
+  "destinos": [
+    "66f6044a68f572db1a3f130e",
+    "66f6044a68f572db1a3f1311",
+    "66f6044a68f572db1a3f130d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66faa636ce8281dd6037553c"
+  },
+  "id": 5,
+  "nombre": "Juan Rodriguez",
+  "foto": "juan.jpg",
+  "descripcion": "Soy Juan :).",
+  "destinos": [
+    "66f6044a68f572db1a3f131b",
+    "66f6044a68f572db1a3f131a",
+    "66f6044a68f572db1a3f1319",
+    "66f6044a68f572db1a3f1318"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fc43328b000403cb9fc42e"
+  },
+  "nombre": "Patricia Suarez",
+  "foto": "patricia.jpg",
+  "descripcion": "Hola! soy pato, y les quiero compartir lo que más amo.",
+  "destinos": [
+    "66f6044a68f572db1a3f130c",
+    "66f6044a68f572db1a3f130f",
+    "66f6044a68f572db1a3f1313"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fc527ac7d45ebb702439a1"
+  },
+  "nombre": "Bautista Galliano",
+  "foto": "bautista.jpg",
+  "descripcion": "Soy bauti, y me apasionan las culturas.",
+  "destinos": [
+    "66f6044a68f572db1a3f1316",
+    "66f6044a68f572db1a3f1317"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fc52b5c7d45ebb702439a2"
+  },
+  "nombre": "Justina Lopez",
+  "foto": "justina.jpg",
+  "descripcion": "Hola a todos :).",
+  "destinos": [
+    "66f6044a68f572db1a3f1310",
+    "66f6044a68f572db1a3f1314",
+    "66f6044a68f572db1a3f1315"
+  ]
+}]
